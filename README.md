@@ -1,14 +1,13 @@
-# Project
+# VS Code Snippets
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Notes for contributing Azure ML Snippets.
 
-As the maintainer of this project, please make a few updates:
+For using snippets see https://azure.github.io/azureml-web/docs/vs-code-snippets/snippets.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+1. Add snippets to `python.json`. For more details on VS Code snippets: [vs-code-docs](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+2. Run `python snippets-parser.py` to automatically update the `snippets.md` (which will document your changes)
+3. Make a PR to the `main` branch and request a review.
+
 
 ## Contributing
 
